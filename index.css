@@ -5,7 +5,9 @@ img{
 body{
     display:grid;
     margin:0;
-    background-image: linear-gradient(#90e0ef,#caf0f8);
+    background-image:url('https://media.istockphoto.com/vectors/gradient-gray-abstract-background-blurred-smooth-gray-color-bright-vector-id1181937807?k=20&m=1181937807&s=612x612&w=0&h=W6w7rliTsLQEza5Cq5CkWPDqYZBYk7hfEGIfVsQNW28=');
+    background-position: center;
+    background-size: cover;
 }
 .first-profile-block{
     grid-row:1;
@@ -36,9 +38,9 @@ body{
 .first-profile-block > img{
     grid-column: 1;
     grid-row:2;
-    width:40%;
+    width:55%;
     margin:auto auto auto auto;
-    border-radius:50%;
+    border-radius:10%;
 }
 
 .first-profile-block>p{
@@ -81,9 +83,9 @@ body{
 .second-profile-block > img{
     grid-column: 2;
     grid-row:2;
-    width:40%;
+    width:65%;
     margin:auto auto auto auto;
-    border-radius:50%;
+    border-radius:10%;
 }
 
 .second-profile-block>p{
